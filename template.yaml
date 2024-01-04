@@ -2,7 +2,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: python_copier_template_3
-  title: Python Copier Template 3
+  title: Python Copier /template
   description: Create a project based on this template using Copier
   tags:
     - recommended
@@ -77,7 +77,7 @@ spec:
       name: Fetch Base
       action: fetch:copier
       input:
-        url: .
+        url: ./template
         values:
           name: ${{ parameters.name }}
           description: ${{ parameters.description }}
