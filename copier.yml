@@ -59,7 +59,7 @@ docs_option:
     type: bool
     help: Would you like docs?
 
-_subdirectory: "skeleton"
+_subdirectory: "./template"
 
 repo_url:
     type: str
