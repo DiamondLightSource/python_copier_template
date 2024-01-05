@@ -77,7 +77,7 @@ spec:
       name: Fetch Base
       action: fetch:copier
       input:
-        url: ./skeleton
+        url: .
         values:
           name: ${{ parameters.name }}
           description: ${{ parameters.description }}
